@@ -15,8 +15,8 @@ class Orztinypng < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "swift", "build", "--disable-sandbox", "-c"， "release", "-Xswiftc", \
-    "--cross-module-optimization"
+    system "swift", "build", "--disable-sandbox", "--configuration"， "release", \
+    "-Xswiftc", "--cross-module-optimization"
     mv ".build/release/tiny", "tiny"
     bin.install "tiny"
   end
