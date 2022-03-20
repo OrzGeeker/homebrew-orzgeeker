@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class OrzTinyPNG < Formula
+class Orztinypng < Formula
   desc "A command line tools for image compress of JPEG and PNG Using TinyPNG API"
   homepage "https://github.com/OrzGeeker/OrzTinyPNG"
   url "https://github.com/OrzGeeker/OrzTinyPNG/archive/refs/tags/0.0.1.tar.gz"
