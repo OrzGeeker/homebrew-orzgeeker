@@ -14,8 +14,7 @@ class Orztinypng < Formula
   uses_from_macos "swift"
 
   def install
-    system "swift", "build", "--disable-sandbox", "--configuration", "release",
-           "-Xswiftc", "--cross-module-optimization"
+    system "swift", "build", "--disable-sandbox", "--configuration", "release"
     mv ".build/release/tiny", "tiny"
     bin.install "tiny"
   end
