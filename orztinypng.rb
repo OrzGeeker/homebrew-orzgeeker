@@ -6,8 +6,8 @@
 class Orztinypng < Formula
   desc "This is a command-line tool for image compress of JPEG and PNG Using TinyPNG API"
   homepage "https://github.com/OrzGeeker/OrzTinyPNG"
-  url "https://github.com/OrzGeeker/OrzTinyPNG/archive/refs/tags/0.0.4.tar.gz"
-  sha256 "a68dabda6cd9a1854bcaf520002020ced023f25acb9dabbc8fc3442f9885706f"
+  url "https://github.com/OrzGeeker/OrzTinyPNG/archive/refs/tags/0.0.5.tar.gz"
+  sha256 "67dbe6017edf3b0232578a9f95093146903e9df08db55279c152cf817ab35f65"
   license "Unlicense"
 
   depends_on xcode: "13.3"
