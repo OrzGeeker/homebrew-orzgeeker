@@ -10,7 +10,7 @@ class Orztinypng < Formula
   sha256 "d553d7cc96d2e91e33b474ab443d4fc19bc4257f87b54fe4ca7114ac7c05e667"
   license "Unlicense"
 
-  depends_on xcode: "13.3"g
+  depends_on xcode: "13.3"
   uses_from_macos "swift"
 
   def install
