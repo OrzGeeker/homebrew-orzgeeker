@@ -3,7 +3,7 @@
 Homebrew tap for OrzGeeker
 
 ```bash
-brew tap orzgeeker/orzgeeker
+brew tap orzgeeker/core
 ```
 
 ## reference
